@@ -6,6 +6,8 @@ This project is a Machine Learning and NLP-based Resume Screening System develop
 
 The system automatically analyzes resumes, compares them against a job description, calculates similarity scores, and ranks candidates based on their suitability for the role.
 
+
+
 ## Features
 
 * Resume text processing
@@ -14,6 +16,8 @@ The system automatically analyzes resumes, compares them against a job descripti
 * Ranking of applicants
 * Visualization of top candidates
 * NLP-based resume screening
+
+
 
 ## Technologies Used
 
@@ -24,24 +28,17 @@ The system automatically analyzes resumes, compares them against a job descripti
 * Cosine Similarity
 * Matplotlib
 
+
+
 ## Dataset
 
-Resume Dataset from Kaggle containing resumes from multiple job categories.
+This project uses the Resume Dataset available on Kaggle:
 
-## Project Structure
+https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset
 
-resume-screening-system/
+The dataset is not included in this repository due to its large size. Download the dataset and place Resume.csv inside the datasets folder before running the project.
 
-├── datasets/
-|
-├── visuals/
-|└── candidate_ranking.png
-│ 
-├── resume_screening.py
-|
-├── requirements.txt
-|
-└── README.md
+
 
 ## Workflow
 
@@ -52,6 +49,8 @@ resume-screening-system/
 5. Calculate similarity scores
 6. Rank candidates
 7. Visualize top-ranked candidates
+
+   
 
 ## Results
 
